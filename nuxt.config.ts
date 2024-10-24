@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image",
     "nuxt-aos",
+    "@nuxt/icon",
   ],
   googleFonts: {
     families: {
