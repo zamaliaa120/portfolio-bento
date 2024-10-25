@@ -1,33 +1,13 @@
 <template>
-  <html>
-    <head>
-      <!-- Google tag (gtag.js) -->
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-TR7LBHJG4L"
-      ></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "G-TR7LBHJG4L");
-      </script>
-      <meta
-        name="google-site-verification"
-        content="Q7WWwneqokVhPXj3-uFaeoLjBPCGuWnyVSl1RSIpS1U"
-      />
-    </head>
-    <body>
-      <NuxtPage />
-    </body>
-  </html>
+  <div>
+    <NuxtPage />
+  </div>
 </template>
 
 <script setup>
 import "~/assets/styles/global.css";
+import { useHead } from "#app";
+
 useHead({
   title: "Portfolio | Zahara Amalia",
   meta: [
@@ -42,11 +22,27 @@ useHead({
     },
     { name: "author", content: "Zahara Amalia" },
   ],
+  script: [
+    {
+      src: "https://www.googletagmanager.com/gtag/js?id=G-TR7LBHJG4L",
+      async: true,
+    },
+    {
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-TR7LBHJG4L');
+      `,
+      type: "text/javascript",
+    },
+    {
+      innerHTML: "console.log('Welcome to Zahara Amalia's Portfolio')",
+      type: "text/javascript",
+    },
+  ],
   bodyAttrs: {
     class: "portfolio-page",
   },
-  script: [
-    { innerHTML: "console.log('Welcome to Zahara Amalia's Portfolio')" },
-  ],
 });
 </script>
