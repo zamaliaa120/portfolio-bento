@@ -15,12 +15,12 @@
     "tailwindcss": "^3.4.14",
     "vue": "latest",
     "vue-router": "latest",
-    "@nuxtjs/tailwindcss": "^6.12.2"
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@nuxtjs/color-mode": "^3.5.1"
   },
   "devDependencies": {
     "@nuxt/icon": "^1.5.6",
     "@nuxt/image": "^1.8.1",
-    "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8"
