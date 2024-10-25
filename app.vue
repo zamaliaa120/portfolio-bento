@@ -1,5 +1,15 @@
 <template>
-  <NuxtPage />
+  <html>
+    <head>
+      <meta
+        name="google-site-verification"
+        content="Q7WWwneqokVhPXj3-uFaeoLjBPCGuWnyVSl1RSIpS1U"
+      />
+    </head>
+    <body>
+      <NuxtPage />
+    </body>
+  </html>
 </template>
 
 <script setup>
