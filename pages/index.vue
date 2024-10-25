@@ -57,7 +57,7 @@
     <section
       data-aos="fade-down"
       data-aos-duration="1000"
-      class="group relative flex items-center justify-center gap-5 overflow-hidden rounded-xl bg-yellow-500 p-5 lg:row-start-2"
+      class="group relative flex items-center justify-center gap-5 overflow-hidden rounded-xl bg-purple-100 p-5 lg:col-start-1 lg:row-start-2"
       role="region"
       aria-labelledby="location-title"
     >
@@ -80,7 +80,7 @@
     <section
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="relative flex flex-col items-center justify-center gap-5 overflow-hidden rounded-xl bg-purple-100 p-5 text-center md:col-span-2 lg:col-span-2 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:items-start lg:justify-start lg:text-start"
+      class="relative row-start-2 flex flex-col items-center justify-center gap-5 overflow-hidden rounded-xl bg-purple-100 p-5 text-center md:col-span-2 lg:col-span-2 lg:col-start-4 lg:row-span-2 lg:row-start-1 lg:items-start lg:justify-start lg:text-start"
     >
       <h1 class="text-preset-3 lg:text-preset-2">Hi There, 👋🏻</h1>
       <p class="lg:text-preset-4">
@@ -135,7 +135,12 @@
       class="flex flex-col items-center justify-center gap-5 rounded-xl bg-purple-500 p-8 md:col-span-2 md:flex-row md:justify-evenly lg:col-span-3 lg:row-span-1 lg:justify-start"
     >
       <div class="flex flex-col gap-5">
-        <h1 class="text-preset-3 text-white lg:text-preset-3">Tech Stack</h1>
+        <h1 class="text-preset-3 text-white lg:text-preset-2">
+          Tech
+          <span class="rounded-xl bg-yellow-500 px-2 text-purple-500"
+            >Stack</span
+          >
+        </h1>
         <div class="flex flex-wrap items-center gap-5 text-white">
           <Icon
             name="uil:vuejs"
@@ -194,7 +199,7 @@
     <section
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="flex flex-col justify-center gap-5 rounded-xl bg-white p-8 md:col-span-2 lg:col-span-1 lg:col-start-2 lg:row-span-1 lg:row-start-3"
+      class="flex flex-col justify-center gap-5 rounded-xl bg-white p-8 lg:col-span-1 lg:col-start-2 lg:row-span-1 lg:row-start-3"
     >
       <h1 class="text-preset-2 lg:text-preset-1">2+ Years</h1>
       <p class="text-preset-4">Experience in Web Development</p>
@@ -203,12 +208,29 @@
     <section
       data-aos="fade-right"
       data-aos-duration="1000"
-      class="flex flex-col justify-center gap-5 rounded-xl bg-yellow-100 p-8 lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:justify-start"
+      class="flex flex-col justify-center gap-5 rounded-xl bg-yellow-100 p-8 lg:col-start-1 lg:row-start-1 lg:justify-start"
     >
-      <h1 class="text-preset-3">
-        Passionate About
-        <span class="italic text-purple-500">Design & Development</span>
+      <h1 class="text-preset-3 italic text-purple-500">Core Values</h1>
+      <blockquote class="text-lg italic text-purple-500">
+        "Growing, learning, and adapting – that’s how I tackle every project."
+      </blockquote>
+    </section>
+
+    <section
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      class="group row-start-3 flex cursor-pointer flex-col items-center justify-center gap-5 rounded-xl border-8 border-dashed border-yellow-500 bg-yellow-100 p-8 md:row-start-5 lg:col-start-3 lg:row-start-2"
+    >
+      <h1
+        class="text-center text-preset-3 italic text-purple-500 lg:text-preset-2"
+      >
+        Dive into My Projects!
       </h1>
+      <Icon
+        name="hugeicons:cursor-magic-selection-01"
+        size="90"
+        class="animate-pulse text-purple-500 transition duration-300 group-hover:scale-125 group-hover:animate-none"
+      />
     </section>
 
     <section
