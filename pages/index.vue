@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import DownloadCV from "~/components/DownloadCV.vue";
+
 definePageMeta({
   title: "Zahara Amalia",
   description: "Zahara Amalia's Portfolio",
@@ -56,7 +58,8 @@ definePageMeta({
       />
     </section>
 
-    <Education />
+    <!-- <Education /> -->
+    <DownloadCV />
 
     <section
       class="flex flex-col justify-between gap-5 rounded-xl bg-purple-500 p-8 text-center text-white md:col-span-2 md:flex-row md:items-center lg:col-span-4"
