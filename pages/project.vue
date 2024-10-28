@@ -1,3 +1,9 @@
+<script setup>
+definePageMeta({
+  title: "Zahara Amalia - Project",
+  description: "Zahara Amalia's Portfolio",
+});
+</script>
 <template>
   <div
     class="grid min-h-screen grid-cols-1 justify-center gap-5 overflow-hidden bg-purple-500 p-5 md:grid-cols-2 lg:grid-cols-4"
