@@ -7,11 +7,11 @@
     <h1 class="text-preset-2 text-white">
       Zahara Amalia <span class="italic text-yellow-500">Web Developer</span>
     </h1>
-    <img
+    <!-- <img
       src="/images/illustration-five-stars.webp"
       alt="Profile Zahara"
       class="w-1/2 rounded-full transition duration-300 hover:scale-125"
-    />
+    /> -->
     <p class="text-preset-4 text-white">Building stunning websites and apps.</p>
   </section>
 </template>
