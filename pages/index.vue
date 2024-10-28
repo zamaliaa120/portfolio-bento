@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import About from "./project.vue";
-
 definePageMeta({
   title: "Zahara Amalia",
   description: "Zahara Amalia's Portfolio",
