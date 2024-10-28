@@ -188,9 +188,7 @@ definePageMeta({
       class="flex flex-col justify-center gap-5 rounded-xl bg-yellow-100 p-4 lg:justify-start"
     >
       <h1 class="text-preset-3 italic text-purple-500">
-        <h1 class="text-preset-3 italic text-purple-500">
-          Attendance (Web View)
-        </h1>
+        Attendance (Web View)
       </h1>
       <p class="text-sm text-purple-500">
         This website is specifically designed to enable companies or

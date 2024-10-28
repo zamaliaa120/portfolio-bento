@@ -21,8 +21,8 @@
 <script setup>
 const downloadCV = () => {
   const link = document.createElement("a");
-  link.href = "/CV - Zahara Amalia.pdf";
-  link.download = "CV - Zahara Amalia.pdf";
+  link.href = "/CV.pdf";
+  link.download = "CV Zahara Amalia.pdf";
   link.click();
 };
 </script>
