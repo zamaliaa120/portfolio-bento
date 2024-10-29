@@ -1,75 +1,26 @@
-# Nuxt 3 Minimal Starter
+# Zahara Amalia - Project Portfolio 🎉
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to my portfolio! I am Zahara Amalia, a web developer focused on creating engaging and functional applications. Here, you can explore various projects I have worked on and learn more about my skills and experiences. 🚀
 
-## Setup
+## About Me 👩‍💻
 
-Make sure to install the dependencies:
+I am a developer with experience in building web and mobile applications using various technologies such as:
 
-```bash
-# npm
-npm install
+- Vue.js 🌟
+- Nuxt.js 📦
+- Tailwind CSS 🎨
+- React ⚛️
+- Next.js ⏩
+- Express.js 🌐
 
-# pnpm
-pnpm install
+I have a passion for creating innovative and efficient solutions, and I am committed to enhancing user experience. 💡
 
-# yarn
-yarn install
+## Contact 📞
 
-# bun
-bun install
-```
+If you would like to discuss further or are interested in collaborating, please feel free to reach out to me:
 
-## Development Server
+- Email: [zaharaa120@gmail.com](mailto:zaharaa120@gmail.com) 📧
+- LinkedIn: [linkedin.com/in/zahara-amalia](https://www.linkedin.com/in/zahara-amalia) 🔗
+- GitHub: [github.com/zahara120](https://github.com/zahara120) 🐙
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Thank you for visiting my portfolio! I hope you find the information useful and interesting. 😊
