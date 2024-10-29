@@ -1,9 +1,31 @@
-<script setup>
-definePageMeta({
-  title: "Zahara Amalia - Project",
-  description: "Zahara Amalia's Portfolio",
+<script setup lang="ts">
+useHead({
+  title: "Zahara Amalia - Project Portfolio",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Explore Zahara Amalia's projects and portfolio, showcasing her expertise in web and mobile development using technologies like Vue.js, Nuxt.js, Tailwind, React, and more.",
+    },
+    { property: "og:title", content: "Zahara Amalia - Project Portfolio" },
+    {
+      property: "og:description",
+      content:
+        "Discover Zahara Amalia's portfolio, including projects in web development, mobile apps, and CMS systems.",
+    },
+    { property: "og:image", content: "/images/thumbnail.png" },
+    { property: "og:url", content: "https://portfolio.zahara.id" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Zahara Amalia - Project Portfolio" },
+    {
+      name: "twitter:description",
+      content: "Showcasing Zahara Amalia's projects and technical skills.",
+    },
+    { name: "twitter:image", content: "/images/thumbnail.png" },
+  ],
 });
 </script>
+
 <template>
   <div
     class="grid min-h-screen grid-cols-1 justify-center gap-5 overflow-hidden bg-purple-500 p-5 md:grid-cols-2 lg:grid-cols-4"
