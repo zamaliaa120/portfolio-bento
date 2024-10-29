@@ -13,15 +13,15 @@ useHead({
       content:
         "Discover Zahara Amalia's portfolio, including projects in web development, mobile apps, and CMS systems.",
     },
-    { property: "og:image", content: "/images/thumbnail.png" },
-    { property: "og:url", content: "https://portfolio.zahara.id" },
+    { property: "og:image", content: "/images/thumbnail-project.png" },
+    { property: "og:url", content: "https://portfolio.zahara.id/project" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: "Zahara Amalia - Project Portfolio" },
     {
       name: "twitter:description",
       content: "Showcasing Zahara Amalia's projects and technical skills.",
     },
-    { name: "twitter:image", content: "/images/thumbnail.png" },
+    { name: "twitter:image", content: "/images/thumbnail-project.png" },
   ],
 });
 </script>
